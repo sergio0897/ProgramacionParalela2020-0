@@ -1,1 +1,0 @@
-# ProgramacionParalela2020-0
