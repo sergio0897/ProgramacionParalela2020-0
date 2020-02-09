@@ -1,17 +1,12 @@
 /*
  ============================================================================
- Name        : HelloWorldMPI_01.c
- Author      : Herminio Paucar
+ Name        : Laboratario_01.c
+ Author      : Sergio de la Torre
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World using MPI
- Compile Command:
- 	$ mpiCC -g -Wall -o HelloWorldMPI_02 HelloWorldMPI_02.cpp
-	$ mpiexec  ./HelloWorldMPI_02
-	$ mpiexec -n 10 ./HelloWorldMPI_02
+ Description : Compute Pi in MPI C++
  ============================================================================
  */
-
 #include "mpi.h"
 #include <iostream>
 using namespace std;
@@ -35,5 +30,3 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-
